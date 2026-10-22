@@ -20,7 +20,6 @@ def mostra_errore_e_ferma(exctype, value, tb):
     traceback.print_exception(exctype, value, tb)
     print("="*50)
     print(f"\nPython Path: {sys.executable}") # Ti dice quale Python sta girando
-    input("\nPremi INVIO per chiudere...")
 
 sys.excepthook = mostra_errore_e_ferma
 
@@ -35,7 +34,6 @@ except ImportError as e:
     print(f"Stai usando questo Python: {sys.executable}")
     print("\nPROVA A LANCIARE IL BOT COSI':")
     print(f"python \"{sys.argv[0]}\"")
-    input("\nPremi INVIO per uscire...")
     sys.exit()
 
 # --- CONFIGURAZIONE ---
