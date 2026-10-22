@@ -4,3 +4,4 @@ Pillow
 urllib3<2.0
 dropbox
 setuptools
+wheel
