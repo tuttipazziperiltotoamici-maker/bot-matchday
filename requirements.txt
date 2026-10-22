@@ -2,3 +2,5 @@ python-telegram-bot==13.15
 pandas
 Pillow
 urllib3<2.0
+dropbox
+setuptools
